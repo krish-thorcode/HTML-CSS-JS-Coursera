@@ -2,10 +2,15 @@
 	box-sizing: border-box;
 }
 
+h1 {
+	font-size: 175%;
+}
+
 .first,.second,.third {
 	border: 1px solid;
 	background-color: lightgrey;
 	margin-left: auto;
+	font-size: 100%;
 }
 
 h3 {
@@ -19,6 +24,7 @@ h3 {
 	padding: 15px;
 	padding-top: 0;
 	padding-bottom: 0;
+	font-size: 125%;
 }
 p {
 	margin-top: 40px;
