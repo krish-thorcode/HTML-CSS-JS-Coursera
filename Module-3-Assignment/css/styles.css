@@ -9,7 +9,7 @@ body {
 #header-nav {
 	background-color: grey;
 	border-radius: 0;
-	border: 0;
+	border: 1px solid black;
 }
 
 .navbar-brand h1 {
@@ -23,4 +23,46 @@ body {
 .navbar-brand a, a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 	color: black;
+}
+
+#nav-list a {
+	margin-top: 0;
+	color: black;
+	text-align: center;
+	/*padding: 0;*/
+}
+
+#nav-list a:hover {
+	background: grey;
+
+}
+
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar {
+	border: 1px solid black;
+	/*margin-bottom: 0;*/
+}
+
+#collapsable-nav {
+	background-color: white;
+	border: 1px solid black;
+	padding-bottom: 0;
+	border-bottom: 2px solid black;
+/*	padding-top: 0;*/
+}
+
+hr {
+	border: 1px solid black;
+	margin: 0;
+}
+
+#verbose {
+	background: grey;
+}
+
+@media (min-width: 1200px) {
+	#collapsable-nav {
+		background-color: grey;
+		border: 0;
+	}
+
 }
