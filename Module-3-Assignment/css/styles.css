@@ -7,7 +7,7 @@ body {
 /** Header **/
 
 #header-nav {
-	background-color: grey;
+	background-color: gray;
 	border-radius: 0;
 	border: 1px solid black;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 #nav-list a:hover {
-	background: grey;
+	background: gray;
 
 }
 
@@ -56,30 +56,30 @@ hr {
 }
 
 #chicken {
-	background: grey;
+	background: gray;
 	margin-bottom: 40px;
 }
 
 #beef {
-	background: grey;
+	background: gray;
 	margin-bottom: 40px;
 }
 
 #sushi {
-	background: grey;
+	background: gray;
 	margin-bottom: 40px;
 }
 
 @media (min-width: 1200px) {
 	#collapsable-nav {
-		background-color: grey;
+		background-color: gray;
 		border: 0;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
 	#collapsable-nav {
-		background-color: grey;
+		background-color: gray;
 		border: 0;
 	}
 }
