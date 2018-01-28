@@ -55,8 +55,19 @@ hr {
 	margin: 0;
 }
 
-#verbose {
+#chicken {
 	background: grey;
+	margin-bottom: 40px;
+}
+
+#beef {
+	background: grey;
+	margin-bottom: 40px;
+}
+
+#sushi {
+	background: grey;
+	margin-bottom: 40px;
 }
 
 @media (min-width: 1200px) {
